@@ -1,0 +1,6 @@
+<!--components/child/index.wxml-->
+<view class="content">
+  <view>String: {{propA}}</view>
+  <view>Boolean: {{propB}}</view>
+  <view>Number: {{propC}}</view>
+</view>

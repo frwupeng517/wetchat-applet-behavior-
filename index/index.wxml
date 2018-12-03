@@ -1,0 +1,5 @@
+<!-- 引用组件的页面模版 -->
+<view class="container">
+  <v-like carModel="SYLPHY" price="135000" sale="true"></v-like>
+  <v-movie carModel="XTS" price="250000" sale="false"></v-movie>
+</view>

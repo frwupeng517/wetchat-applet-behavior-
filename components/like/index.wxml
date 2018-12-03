@@ -1,0 +1,12 @@
+<!--components/like/index.wxml-->
+<view class="content">
+  <view>v-like component</view>
+  <view class="title">共有data属性：</view>
+  <view>{{myBehaviorData1}}</view>
+  <view class="title">共有property属性：</view>
+  <view>型号: {{carModel}}</view>
+  <view>价格: {{price}}元</view>
+  <view>是否折扣：{{sale}}</view>
+  <view class="title">共有方法：</view>
+  <button bindtap="myBehaviorMethod">button</button>
+</view>

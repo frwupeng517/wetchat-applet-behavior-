@@ -1,0 +1,7 @@
+.content{
+  font-size: 14px;
+}
+.title{
+  margin: 15px 0;
+  color: #99a9bf;
+}

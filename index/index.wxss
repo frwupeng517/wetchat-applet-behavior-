@@ -1,0 +1,10 @@
+@import "../style/style.wxss";
+
+.container{
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  height: 100vh;
+  padding: 30rpx;
+  box-sizing: border-box;
+}

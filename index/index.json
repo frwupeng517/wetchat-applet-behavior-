@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "my-component": "/components/component-tag-name",
+    "v-like": "/components/like/index",
+    "v-movie": "/components/movie/index",
+    "v-event": "/components/event/index",
+    "v-child": "/components/child/index"
+  }
+}

@@ -1,0 +1,2 @@
+/* components/child/index.wxss */
+@import "/style/style.wxss"
