@@ -4,7 +4,8 @@ Page({
   data: {
     dataA: "来自父组件index的数据",
     dataB: true,
-    dataC: 2300
+    dataC: 2300,
+    hidden: true
   },
   onCustomEvent: function(event) {
     console.log(event)

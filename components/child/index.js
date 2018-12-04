@@ -6,7 +6,8 @@ Component({
   properties: {
     propA: String,
     propB: Boolean,
-    propC: Number
+    propC: Number,
+    hidden: Boolean
   },
 
   /**
@@ -14,6 +15,12 @@ Component({
    */
   data: {
 
+  },
+  attached: function() {
+    console.log('child attached')
+  },
+  ready: function() {
+    console.log('child ready')
   },
 
   /**

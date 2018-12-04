@@ -1,5 +1,5 @@
 <!--components/like/index.wxml-->
-<view class="content">
+<view class="content" hidden='{{hidden}}'>
   <view>v-like component</view>
   <view class="title">共有data属性：</view>
   <view>{{myBehaviorData1}}</view>

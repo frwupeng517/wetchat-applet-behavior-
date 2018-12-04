@@ -1,5 +1,10 @@
 <!-- 引用组件的页面模版 -->
 <view class="container">
-  <v-like carModel="SYLPHY" price="135000" sale="true"></v-like>
-  <v-movie carModel="XTS" price="250000" sale="false"></v-movie>
+  <v-child  propA="{{dataA}}" propB="{{dataB}}" propC="{{dataC}}"></v-child>
+  <v-like hidden="{{hidden}}" carModel="SYLPHY" price="135000" sale="true"></v-like>
+  <v-movie wx:if="{{!hidden}}" carModel="XTS" price="250000" sale="false"></v-movie>
+  <v-event bind:customevent="onCustomEvent"></v-event>
+  <view wx:if="{{id}}">id: {{id}}</view>
+  <view wx:if="{{name}}">name: {{name}}</view>
+  <view wx:if="{{gender}}">gender: {{gender}}</view>
 </view>
